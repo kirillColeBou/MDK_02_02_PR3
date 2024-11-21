@@ -173,7 +173,7 @@ namespace Shake_Тепляков
                                 X = Snake.Points[Snake.Points.Count - 1].X,
                                 Y = Snake.Points[Snake.Points.Count - 1].Y
                             });
-                            LoadLeader();
+                            LoadLeaders();
                             Leaders.Add(new Leaders()
                             {
                                 Name = User.Name,
@@ -205,6 +205,19 @@ namespace Shake_Тепляков
             StreamWriter SW = new StreamWriter("./leaders.txt");
             SW.WriteLine(json);
             SW.Close();
+        }
+
+        public static void LoadLeaders() 
+        {
+            if (File.Exists("./leaders.txt"))
+            {
+                StreamReader SR = new StreamReader("./leaders.txt");
+                string json = SR.ReadLine();
+                SR.Close();
+                if (!string.IsNullOrEmpty(json)) Leaders = JsonConvert.DeserializeObject<List<Leaders>>(json);
+                else Leaders = new List<Leaders>();
+            }
+            else Leaders = new List<Leaders>();
         }
 
         static void Main(string[] args)
