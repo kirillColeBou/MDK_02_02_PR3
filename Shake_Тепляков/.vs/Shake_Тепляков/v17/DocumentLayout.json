@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\Desktop\\\u041F\u04203\\Shake_\u0422\u0435\u043F\u043B\u044F\u043A\u043E\u0432\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|..\\Common\\Common.csproj|c:\\users\\kiril\\desktop\\\u043F\u04403\\common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2C7336D-0178-4C4B-8D73-D9ACD27F00C7}|Shake_\u0422\u0435\u043F\u043B\u044F\u043A\u043E\u0432.csproj|c:\\users\\kiril\\desktop\\\u043F\u04403\\shake_\u0442\u0435\u043F\u043B\u044F\u043A\u043E\u0432\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C7336D-0178-4C4B-8D73-D9ACD27F00C7}|Shake_\u0422\u0435\u043F\u043B\u044F\u043A\u043E\u0432.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +22,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\\u041F\u04203\\Common\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Common\\Class1.cs",
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\\u041F\u04203\\Common\\Class1.cs",
+              "RelativeToolTip": "..\\Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:49:42.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\Desktop\\\u041F\u04203\\Shake_\u0422\u0435\u043F\u043B\u044F\u043A\u043E\u0432\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\kiril\\Desktop\\\u041F\u04203\\Shake_\u0422\u0435\u043F\u043B\u044F\u043A\u043E\u0432\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+=======
+              "ToolTip": "C:\\Users\\kiril\\Desktop\\\u041F\u04203\\Shake_\u0422\u0435\u043F\u043B\u044F\u043A\u043E\u0432\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+>>>>>>> master
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T14:50:25.303Z",
               "EditorCaption": ""
