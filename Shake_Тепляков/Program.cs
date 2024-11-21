@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 
 namespace Shake_Тепляков
 {
-    public class Program
+    internal class Program
     {
-        public static List<Leaders> Leaders = new List<Leaders>();
-        public static List<ViewModelUserSettings> ViewModelUserSettings = new List<ViewModelUserSettings>();
-        public static List<ViewModelGames> ViewModelGames = new List<ViewModelGames>();
-
         static void Main(string[] args)
         {
         }
