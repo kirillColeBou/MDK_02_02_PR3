@@ -45,8 +45,7 @@
               "ToolTip": "E:\\projects\\MDK_02_02_PR3\\SnakeWPF\\Pages\\Game.xaml",
               "RelativeToolTip": "Pages\\Game.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-21T16:17:35.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T16:17:35.889Z"
             },
             {
               "$type": "Document",
@@ -57,8 +56,7 @@
               "ToolTip": "E:\\projects\\MDK_02_02_PR3\\SnakeWPF\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-21T15:04:27.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T15:04:27.038Z"
             },
             {
               "$type": "Document",
@@ -68,7 +66,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "E:\\projects\\MDK_02_02_PR3\\SnakeWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAUwGkAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwGcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T15:04:26.522Z",
               "EditorCaption": ""
@@ -82,8 +80,7 @@
               "ToolTip": "E:\\projects\\MDK_02_02_PR3\\SnakeWPF\\Pages\\EndGame.xaml",
               "RelativeToolTip": "Pages\\EndGame.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-21T16:17:31.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T16:17:31.642Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "ToolTip": "E:\\projects\\MDK_02_02_PR3\\SnakeWPF\\Pages\\Home.xaml",
               "RelativeToolTip": "Pages\\Home.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-21T16:17:52.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T16:17:52.132Z"
             }
           ]
         }
