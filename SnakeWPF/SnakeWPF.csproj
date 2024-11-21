@@ -121,7 +121,9 @@
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\background2.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\bacground1.jpg" />
   </ItemGroup>
