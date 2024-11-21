@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\projects\\MDK_02_02_PR3\\Common\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|e:\\projects\\mdk_02_02_pr3\\common\\viewmodelusersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:viewmodelusersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|e:\\projects\\mdk_02_02_pr3\\common\\viewmodelgames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:viewmodelgames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|e:\\projects\\mdk_02_02_pr3\\common\\leaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|E:\\projects\\MDK_02_02_PR3\\Common\\leaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:leaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ViewModelUserSettings.cs",
+              "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\ViewModelUserSettings.cs",
+              "RelativeDocumentMoniker": "ViewModelUserSettings.cs",
+              "ToolTip": "E:\\projects\\MDK_02_02_PR3\\Common\\ViewModelUserSettings.cs",
+              "RelativeToolTip": "ViewModelUserSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:09:10.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ViewModelGames.cs",
               "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\ViewModelGames.cs",
               "RelativeDocumentMoniker": "ViewModelGames.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Leaders.cs",
               "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\Leaders.cs",
               "RelativeDocumentMoniker": "Leaders.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Leaders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T16:05:16.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T16:05:16.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Snake.cs",
               "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\Snake.cs",
               "RelativeDocumentMoniker": "Snake.cs",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\Class1.cs",
               "RelativeDocumentMoniker": "Class1.cs",
