@@ -120,12 +120,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{8320d6e1-8e8b-427b-8096-0a80afc705c7}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\background2.jpg" />
   </ItemGroup>
   <ItemGroup>
