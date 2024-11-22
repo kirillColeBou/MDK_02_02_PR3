@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\kiril\Desktop\ПР3\SnakeWPF\obj\Debug\
+E:\projects\MDK_02_02_PR3\SnakeWPF\obj\Debug\
 SnakeWPF
 none
 false
 DEBUG;TRACE
-C:\Users\kiril\Desktop\ПР3\SnakeWPF\App.xaml
-1219584333
+E:\projects\MDK_02_02_PR3\SnakeWPF\App.xaml
+4663663797
 
-6-502434485
-13-1310406943
-MainWindow.xaml;
+91014956531
+15362709539
+MainWindow.xaml;Pages\EndGame.xaml;Pages\Game.xaml;Pages\Home.xaml;
 
 True
 

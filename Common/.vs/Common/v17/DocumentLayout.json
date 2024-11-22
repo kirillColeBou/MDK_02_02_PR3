@@ -1,12 +1,115 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\kiril\\Desktop\\\u041F\u04203\\Common\\",
   "Documents": [],
+=======
+  "WorkspaceRootPath": "E:\\projects\\MDK_02_02_PR3\\Common\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|e:\\projects\\mdk_02_02_pr3\\common\\viewmodelusersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:viewmodelusersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|e:\\projects\\mdk_02_02_pr3\\common\\viewmodelgames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:viewmodelgames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|E:\\projects\\MDK_02_02_PR3\\Common\\leaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:leaders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|E:\\projects\\MDK_02_02_PR3\\Common\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|E:\\projects\\MDK_02_02_PR3\\Common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8320D6E1-8E8B-427B-8096-0A80AFC705C7}|Common.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+>>>>>>> 17910277754307c27d9e9926f692caa31bd68344
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": []
+=======
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewModelUserSettings.cs",
+              "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\ViewModelUserSettings.cs",
+              "RelativeDocumentMoniker": "ViewModelUserSettings.cs",
+              "ToolTip": "E:\\projects\\MDK_02_02_PR3\\Common\\ViewModelUserSettings.cs",
+              "RelativeToolTip": "ViewModelUserSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:09:10.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewModelGames.cs",
+              "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\ViewModelGames.cs",
+              "RelativeDocumentMoniker": "ViewModelGames.cs",
+              "ToolTip": "E:\\projects\\MDK_02_02_PR3\\Common\\ViewModelGames.cs",
+              "RelativeToolTip": "ViewModelGames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:08:04.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Leaders.cs",
+              "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\Leaders.cs",
+              "RelativeDocumentMoniker": "Leaders.cs",
+              "ToolTip": "E:\\projects\\MDK_02_02_PR3\\Common\\Leaders.cs",
+              "RelativeToolTip": "Leaders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:05:16.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Snake.cs",
+              "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\Snake.cs",
+              "RelativeDocumentMoniker": "Snake.cs",
+              "ToolTip": "E:\\projects\\MDK_02_02_PR3\\Common\\Snake.cs",
+              "RelativeToolTip": "Snake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:02:16.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\projects\\MDK_02_02_PR3\\Common\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "E:\\projects\\MDK_02_02_PR3\\Common\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:56:50.714Z"
+            }
+          ]
+        }
+      ]
+>>>>>>> 17910277754307c27d9e9926f692caa31bd68344
     }
   ]
 }
