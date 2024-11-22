@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35309.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeWPF", "SnakeWPF.csproj", "{FCBDA6BC-CF69-4156-938B-94E312B15413}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{EAC7319D-BC69-451E-B35B-D7A9BDBEF0FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shake_Тепляков", "..\Shake_Тепляков\Shake_Тепляков.csproj", "{F2C7336D-0178-4C4B-8D73-D9ACD27F00C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FCBDA6BC-CF69-4156-938B-94E312B15413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCBDA6BC-CF69-4156-938B-94E312B15413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCBDA6BC-CF69-4156-938B-94E312B15413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC7319D-BC69-451E-B35B-D7A9BDBEF0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC7319D-BC69-451E-B35B-D7A9BDBEF0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC7319D-BC69-451E-B35B-D7A9BDBEF0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC7319D-BC69-451E-B35B-D7A9BDBEF0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C7336D-0178-4C4B-8D73-D9ACD27F00C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C7336D-0178-4C4B-8D73-D9ACD27F00C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C7336D-0178-4C4B-8D73-D9ACD27F00C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C7336D-0178-4C4B-8D73-D9ACD27F00C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
