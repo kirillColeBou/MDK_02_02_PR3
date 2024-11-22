@@ -126,7 +126,7 @@
     <Resource Include="Images\bacground1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Apple.png" />
+    <Resource Include="Images\apple.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

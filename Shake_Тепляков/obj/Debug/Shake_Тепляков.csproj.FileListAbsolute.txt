@@ -10,3 +10,15 @@ C:\Users\kiril\Desktop\ПР3\Shake_Тепляков\obj\Debug\Shake_Тепляк
 C:\Users\kiril\Desktop\ПР3\Shake_Тепляков\obj\Debug\Shake___.76FC7796.Up2Date
 C:\Users\kiril\Desktop\ПР3\Shake_Тепляков\obj\Debug\Shake_Тепляков.exe
 C:\Users\kiril\Desktop\ПР3\Shake_Тепляков\obj\Debug\Shake_Тепляков.pdb
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Shake_Тепляков.exe.config
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Shake_Тепляков.exe
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Shake_Тепляков.pdb
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Common.dll
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Newtonsoft.Json.dll
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Common.pdb
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Newtonsoft.Json.xml
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.csproj.AssemblyReference.cache
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.csproj.CoreCompileInputs.cache
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake___.76FC7796.Up2Date
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.exe
+E:\projects\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.pdb

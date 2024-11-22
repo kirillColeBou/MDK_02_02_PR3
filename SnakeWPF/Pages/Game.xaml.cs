@@ -91,16 +91,15 @@ namespace SnakeWPF.Pages
                     Canvas.Children.Add(ellipse);
                 }
 
-                ImageBrush myBrush = new ImageBrush();
-                myBrush.ImageSource = new BitmapImage(new Uri($"pack://application:,,,/Image/Apple.png"));
+
                 Ellipse points = new Ellipse()
                 {
                     Width = 40,
                     Height = 40,
                     Margin = new Thickness(
-                        MainWindow.mainWindow.ViewModelGames.Points.Y - 20,
+                        MainWindow.mainWindow.ViewModelGames.Points.X - 20,
                         MainWindow.mainWindow.ViewModelGames.Points.Y - 20, 0, 0),
-                    Fill = myBrush
+                    Fill = Brushes.Red
                 };
                 Canvas.Children.Add (points);
             });
