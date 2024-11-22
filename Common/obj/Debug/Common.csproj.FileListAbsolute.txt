@@ -4,3 +4,9 @@ E:\projects\MDK_02_02_PR3\Common\obj\Debug\Common.csproj.AssemblyReference.cache
 E:\projects\MDK_02_02_PR3\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 E:\projects\MDK_02_02_PR3\Common\obj\Debug\Common.dll
 E:\projects\MDK_02_02_PR3\Common\obj\Debug\Common.pdb
+C:\Users\kiril\Desktop\MDK_02_02_PR3\Common\bin\Debug\Common.dll
+C:\Users\kiril\Desktop\MDK_02_02_PR3\Common\bin\Debug\Common.pdb
+C:\Users\kiril\Desktop\MDK_02_02_PR3\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\MDK_02_02_PR3\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\kiril\Desktop\MDK_02_02_PR3\Common\obj\Debug\Common.dll
+C:\Users\kiril\Desktop\MDK_02_02_PR3\Common\obj\Debug\Common.pdb

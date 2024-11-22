@@ -75,10 +75,13 @@ namespace SnakeWPF
                             OpenPage(Game);
                         });
                     }
-
-                    ViewModelGames = JsonConvert.DeserializeObject<ViewModelGames>(returnData.ToString());
-
-                    if (ViewModelGames.SnakesPlayers.GameOver)
+                    var data = JsonConvert.DeserializeObject<dynamic>(returnData.ToString());
+                    ViewModelGames = new ViewModelGames
+                    {
+                        AllSnakes = JsonConvert.DeserializeObject<List<ViewModelGames>>(data.AllSnakes.ToString()),
+                        Points = JsonConvert.DeserializeObject<Snakes.Point>(data.ApplePoint.ToString())
+                    };
+                    if (ViewModelGames.AllSnakes.Any(x => x.SnakesPlayers.GameOver))
                     {
                         Dispatcher.Invoke(() =>
                         {

@@ -18,12 +18,13 @@ namespace Shake_Тепляков
         public static List<Leaders> Leaders = new List<Leaders>();
         public static List<ViewModelUserSettings> remoteIPAddress = new List<ViewModelUserSettings>();
         public static List<ViewModelGames> viewModelGames = new List<ViewModelGames>();
+        public static Snakes.Point ApplePoint = new Snakes.Point(new Random().Next(10, 783), new Random().Next(10, 410));
         private static int localPort = 5001;
         public static int MaxSpeed = 15;
 
         private static void Send()
         {
-            foreach(var User in remoteIPAddress)
+            foreach (var User in remoteIPAddress)
             {
                 UdpClient sender = new UdpClient();
                 IPEndPoint endPoint = new IPEndPoint(
@@ -31,15 +32,20 @@ namespace Shake_Тепляков
                     int.Parse(User.Port));
                 try
                 {
-                    byte[] bytes = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(viewModelGames.Find(x => x.IdSnake == User.IdSnake)));
+                    var dataToSend = new
+                    {
+                        AllSnakes = viewModelGames,
+                        ApplePoint = ApplePoint
+                    };
+                    byte[] bytes = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(dataToSend));
                     sender.Send(bytes, bytes.Length, endPoint);
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"Отправил данные пользователю: {User.IPAddress}:{User.Port}");
                 }
-                catch (Exception ex) 
-                { 
+                catch (Exception ex)
+                {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Возникло исключение: " + ex.ToString() + "\n " + ex.Message);   
+                    Console.WriteLine("Возникло исключение: " + ex.ToString() + "\n " + ex.Message);
                 }
                 finally
                 {
@@ -118,9 +124,9 @@ namespace Shake_Тепляков
             {
                 Thread.Sleep(100);
                 List<ViewModelGames> RemoteSnakes = viewModelGames.FindAll(x => x.SnakesPlayers.GameOver);
-                if(RemoteSnakes.Count > 0)
+                if (RemoteSnakes.Count > 0)
                 {
-                    foreach(var DeadSnakes in RemoteSnakes)
+                    foreach (var DeadSnakes in RemoteSnakes)
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"Отключил пользователя: {remoteIPAddress.Find(x => x.IdSnake == DeadSnakes.IdSnake).IPAddress}:{remoteIPAddress.Find(x => x.IdSnake == DeadSnakes.IdSnake).Port}");
@@ -128,27 +134,27 @@ namespace Shake_Тепляков
                     }
                     viewModelGames.RemoveAll(x => x.SnakesPlayers.GameOver);
                 }
-                foreach(var User in remoteIPAddress)
+                foreach (var User in remoteIPAddress)
                 {
                     var Snake = viewModelGames.Find(x => x.IdSnake == User.IdSnake).SnakesPlayers;
-                    for(int i = Snake.Points.Count - 1; i >= 0; i--)
+                    for (int i = Snake.Points.Count - 1; i >= 0; i--)
                     {
-                        if(i != 0)
+                        if (i != 0)
                         {
                             Snake.Points[i] = Snake.Points[i - 1];
                         }
                         else
                         {
                             int Speed = 10 + (int)Math.Round(Snake.Points.Count / 20f);
-                            if(Speed > MaxSpeed) Speed = MaxSpeed;
+                            if (Speed > MaxSpeed) Speed = MaxSpeed;
                             if (Snake.direction == Snakes.Direction.Right) Snake.Points[i] = new Snakes.Point() { X = Snake.Points[i].X + Speed, Y = Snake.Points[i].Y };
                             if (Snake.direction == Snakes.Direction.Left) Snake.Points[i] = new Snakes.Point() { X = Snake.Points[i].X - Speed, Y = Snake.Points[i].Y };
                             if (Snake.direction == Snakes.Direction.Down) Snake.Points[i] = new Snakes.Point() { X = Snake.Points[i].X, Y = Snake.Points[i].Y + Speed };
                             if (Snake.direction == Snakes.Direction.Up) Snake.Points[i] = new Snakes.Point() { X = Snake.Points[i].X, Y = Snake.Points[i].Y - Speed };
                         }
                     }
-                    if (Snake.Points[0].X <= 0 || Snake.Points[0].X >= 793) Snake.GameOver = true;
-                    if (Snake.Points[0].Y <= 0 || Snake.Points[0].Y >= 723) Snake.GameOver = true;
+                    if (Snake.Points[0].X <= 0 || Snake.Points[0].X >= 783) Snake.GameOver = true;
+                    if (Snake.Points[0].Y <= 0 || Snake.Points[0].Y >= 410) Snake.GameOver = true;
                     if (Snake.direction != Snakes.Direction.Start)
                     {
                         for (int i = 1; i < Snake.Points.Count; i++)
@@ -163,11 +169,11 @@ namespace Shake_Тепляков
                             }
                         }
                     }
-                    if (Snake.Points[0].X >= viewModelGames.Find(x => x.IdSnake == User.IdSnake).Points.X - 15 && Snake.Points[0].X <= viewModelGames.Find(x => x.IdSnake == User.IdSnake).Points.X + 15)
+                    if (Snake.Points[0].X >= ApplePoint.X - 15 && Snake.Points[0].X <= ApplePoint.X + 15)
                     {
-                        if(Snake.Points[0].Y >= viewModelGames.Find(x => x.IdSnake == User.IdSnake).Points.Y - 15 && Snake.Points[0].Y <= viewModelGames.Find(x => x.IdSnake == User.IdSnake).Points.Y + 15)
+                        if (Snake.Points[0].Y >= ApplePoint.Y - 15 && Snake.Points[0].Y <= ApplePoint.Y + 15)
                         {
-                            viewModelGames.Find(x => x.IdSnake == User.IdSnake).Points = new Snakes.Point(new Random().Next(10, 783), new Random().Next(10, 410));
+                            ApplePoint = new Snakes.Point(new Random().Next(10, 783), new Random().Next(10, 410));
                             Snake.Points.Add(new Snakes.Point()
                             {
                                 X = Snake.Points[Snake.Points.Count - 1].X,
@@ -194,7 +200,6 @@ namespace Shake_Тепляков
                         SaveLeaders();
                     }
                 }
-
                 Send();
             }
         }
