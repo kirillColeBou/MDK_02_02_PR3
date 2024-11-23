@@ -34,3 +34,15 @@ C:\Users\kiril\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Те
 C:\Users\kiril\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake___.76FC7796.Up2Date
 C:\Users\kiril\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.exe
 C:\Users\kiril\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.pdb
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Shake_Тепляков.exe.config
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Shake_Тепляков.exe
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Shake_Тепляков.pdb
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Common.dll
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Newtonsoft.Json.dll
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Common.pdb
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\bin\Debug\Newtonsoft.Json.xml
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.csproj.AssemblyReference.cache
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.csproj.CoreCompileInputs.cache
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.csproj.CopyComplete
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.exe
+C:\Users\student-A209.PERMAVIAT.000\Desktop\MDK_02_02_PR3\Shake_Тепляков\obj\Debug\Shake_Тепляков.pdb

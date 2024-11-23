@@ -30,6 +30,7 @@ namespace SnakeWPF
         public static MainWindow mainWindow;
         public ViewModelUserSettings ViewModelUserSettings = new ViewModelUserSettings();
         public ViewModelGames ViewModelGames = null;
+        public List<ViewModelGames> ViewModelGamesList = null;
         public static IPAddress remoteIPAddress = IPAddress.Parse("127.0.0.1");
         public static int remotePort = 5001;
         public Thread tRec;
@@ -75,13 +76,8 @@ namespace SnakeWPF
                             OpenPage(Game);
                         });
                     }
-                    var data = JsonConvert.DeserializeObject<dynamic>(returnData.ToString());
-                    ViewModelGames = new ViewModelGames
-                    {
-                        AllSnakes = JsonConvert.DeserializeObject<List<ViewModelGames>>(data.AllSnakes.ToString()),
-                        Points = JsonConvert.DeserializeObject<Snakes.Point>(data.ApplePoint.ToString())
-                    };
-                    if (ViewModelGames.AllSnakes.Any(x => x.SnakesPlayers.GameOver))
+                    ViewModelGames = JsonConvert.DeserializeObject<ViewModelGames>(returnData.ToString());
+                    if (ViewModelGames.SnakesPlayers.GameOver)
                     {
                         Dispatcher.Invoke(() =>
                         {
@@ -90,6 +86,10 @@ namespace SnakeWPF
                     }
                     else
                     {
+                        receiveBytes = receivingUdpClient.Receive(ref RemoteIpEndPoint);
+                        returnData = Encoding.UTF8.GetString(receiveBytes);
+                        ViewModelGamesList = JsonConvert.DeserializeObject<List<ViewModelGames>>(returnData.ToString());
+
                         Game.CreateUI();
                     }
                 }
